@@ -93,10 +93,11 @@ body{
     border-radius: 5px;
 }
 h1{
-    position: absolute;
+    position: relative;
     font-family: 'Poppins',sans-serif;
     width: 50%;
-    top: 30%;
-    left: 40%;
+    top: 50%;
+    left: 30%;
     color:  #CFB172;
+    transform: translate(-50%,-50%);
 }
