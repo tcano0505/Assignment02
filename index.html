@@ -12,6 +12,15 @@
             <div id="newtask">
                 <input type="text" placeholder="Add Tasks">
                 <button id="push">Submit Tasks</button>
+                <select>
+                    <option value = "low"> Low Priority</option>
+                    <option value = "medium">Medium Priority</option>
+                    <option value = "high">High Priority</option>
+                </select>
+                <input type="radio" id="pending" name="status" value="pending" checked>
+                <label for="pending">Pending</label>
+                <input type="radio" id="completed" name="status" value="completed">
+                <label for="completed">Completed</label>
             </div>
             <div id="tasks"></div>
         </div>
